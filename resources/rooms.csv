@@ -1,0 +1,15 @@
+﻿Room Number,Monthly Rent,Hall Number,Lease,Occupied,Cleaning Status,Availability
+101,500,GS,null,No,Clean,Yes
+102,600,GS,null,No,Offline,No
+103,500,GS,1005,Yes,Dirty,No
+104,600,GS,null,No,Dirty,Yes
+105,500,WP,1004,Yes,Clean,No
+106,500,WP,1001,Yes,Clean,No
+107,550,WP,1006,Yes,Clean,No
+108,700,WP,null,No,Offline,No
+109,700,WP,1003,Yes,Dirty,No
+110,650,CC,1002,Yes,Dirty,No
+111,600,CC,null,No,Offline,No
+112,600,CC,null,No,Clean,Yes
+113,650,CC,1007,Yes,Clean,No
+114,650,CC,1008,Yes,Dirty,No
