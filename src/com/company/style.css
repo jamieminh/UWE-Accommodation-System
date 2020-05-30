@@ -1,0 +1,119 @@
+.text-input:readonly {
+    /*-fx-border-color: #707070;*/
+    -fx-background-color: #c9c9c9;
+    -fx-highlight-text-fill: null;
+    -fx-cursor: default;        /* setMouseTransparent(true) */
+}
+
+.button {
+    -fx-pref-width: 150px;
+    -fx-background-color: #3abf7f;
+    -fx-text-fill: WHITE;
+}
+
+.button:hover {
+    /*-fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;*/
+    -fx-background-color: #37b478;
+    -fx-cursor: hand;
+}
+
+.delete-button {
+    -fx-background-color: #ee5e68;
+}
+
+.delete-button:hover {
+    -fx-background-color: #d0535b;
+}
+
+.overall-vbox {
+    -fx-spacing: 5px;
+    -fx-alignment: TOP_CENTER;
+    -fx-padding: 5px;
+}
+
+.text-field {
+    -fx-pref-width: 130px;
+}
+
+/*.check-box:readonly .box{*/
+/*    -fx-background-color: #c9c9c9;*/
+/*    -fx-border-color:grey;*/
+/*    -fx-border-radius:3px;*/
+/*}*/
+
+/*.check-box .mark {*/
+/*    -fx-background-color: #386aff;*/
+
+/*}*/
+
+.grid-pane {
+    -fx-border-color: #8e8e8e;
+    -fx-padding: 5px;
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+}
+
+.tab-pane {
+    -fx-min-width: 740;
+    -fx-min-height: 350;
+    -fx-max-width: 740;
+    -fx-max-height: 350;
+    -fx-padding: 5px;
+    -fx-border-color: #8e8e8e;
+}
+
+.disable-column{
+    -fx-background-color: #c1c1c1;
+}
+
+
+/* this code does not work, WORKING ON IT */
+.disable-column.tissueCell:selected {
+    -fx-background-color: #97122b;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #54b7c8;
+}
+
+
+.table-row-cell:selected .text {
+    -fx-fill: black ;
+}
+
+.error-message{
+    -fx-font-family: "Segoe UI";
+    -fx-font-weight: BOLD;
+    -fx-fill: #54b7c8;
+    -fx-font-size: 11px;
+}
+
+/*.student-tableView .cell  {*/
+/*    -fx-pref-width: 80px;*/
+/*    !*-fx-alignment: CENTER;*!*/
+/*}*/
+
+/*.student-tableView .column-header {*/
+/*    -fx-pref-width: 80px;*/
+/*    !*-fx-alignment: CENTER;*!*/
+/*}*/
+/*.table-view .column-header-background .filler {*/
+/*    -fx-background-color:  #6622CC;*/
+/*}*/
+/*.table-view .column-header .label{*/
+/*    -fx-text-fill: white;*/
+/*    -fx-font-weight: bold;*/
+/*    -fx-alignment: CENTER_LEFT;*/
+/*}*/
+
+/*.student-tableView .column-overlay{*/
+/*    -fx-min-width: 80px;*/
+/*    !*-fx-fill-width: 50em;*!*/
+/*    -fx-text-alignment: CENTER;*/
+/*}*/
+
+/*.table-view .column-overlay {*/
+/*    -fx-background-color: GREEN;*/
+/*}*/
+
+
